@@ -34,6 +34,6 @@ namespace Web_Operaciones.Controllers
         {
             return num1 - num2;
         }
-
+        
     }
 }
