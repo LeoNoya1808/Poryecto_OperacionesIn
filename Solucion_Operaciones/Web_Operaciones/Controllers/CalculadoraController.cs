@@ -12,13 +12,13 @@ namespace Web_Operaciones.Controllers
     {
         [HttpGet]
         [Route("Suma")]
-        public int suma(int num1, int num2)
+        public int SumaGet(int num1, int num2)
         {
             return num1 + num2;
         }
         [HttpPost]
         [Route("Suma")]
-        public int sumar([FromHeader] int num1, [FromHeader] int num2)
+        public int SumaPost([FromHeader] int num1, [FromHeader] int num2)
         {
             return num1 + num2;
         }
